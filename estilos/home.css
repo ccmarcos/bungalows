@@ -30,8 +30,8 @@
 .contenedor-menu{
   background: #f5f5f5;
   width: 100%;
-  height: 64px;
-  margin-top: 4px;
+  height: 63px;
+  margin-top: 6px;
 }
 
 .contenedor-secundario-menu{
@@ -70,4 +70,71 @@ a{
 
 a:hover{
   color:#bebebe;
+}
+
+.contenedor-foto-principal{
+  margin-top: 44px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+}
+
+.foto-principal{
+  background-image: url("../imagenes/descanso3.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  width: 89%;
+  height: 464px;
+}
+
+.contenedor-info-adicional{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+}
+
+.contenedor-tres-fotos{
+  /*background: rgb(182, 37, 207);*/
+  margin-top: 96px;
+  width: 93%;
+  /*height: 204px;*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-around;
+}
+
+.foto1{
+  background-image: url("../imagenes/habitacion.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  width: 348px;
+  height: 202px;
+}
+.foto2{
+  background-image: url("../imagenes/tarifas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 348px;
+  height: 202px;
+}
+.foto3{
+  background-image: url("../imagenes/playa.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  width: 348px;
+  height: 202px;
+}
+
+.descripcion{
+  background: rgb(167, 145, 94);
+  height: 100px;
 }
