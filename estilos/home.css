@@ -61,16 +61,21 @@
   transition-delay: 0.1s;
 }
 
-a{
-  /*background: rgb(181, 214, 156);*/
-  /*height: 50px;*/
+.item-menu{
+  text-decoration: none;
+  color: #405b6f;
+}
+.item-menu:hover{
+  color: #bebebe;
+}
+/*a{
   text-decoration: none;
   color: #405b6f;
 }
 
 a:hover{
   color:#bebebe;
-}
+}*/
 
 .contenedor-foto-principal{
   margin-top: 44px;
@@ -90,7 +95,7 @@ a:hover{
   height: 464px;
 }
 
-.contenedor-info-adicional{
+.contenedor-fotos-adicional{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -134,7 +139,143 @@ a:hover{
   height: 202px;
 }
 
-.descripcion{
-  background: rgb(167, 145, 94);
-  height: 100px;
+.contenedor-descripcion-adicional{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+}
+
+.contenedor-tres-descripcion{
+  /*background: rgb(182, 37, 207);*/
+  width: 93%;
+  /*height: 204px;*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-around;
+}
+
+
+.descripcion1{
+  /*background: rgb(250, 15, 29);*/
+  width: 348px;
+  height: 202px;
+}
+.descripcion2{
+  /*background: rgb(168, 210, 102);*/
+  width: 348px;
+  height: 202px;
+}
+.descripcion3{
+  /*background: rgb(32, 102, 124);*/
+  width: 348px;
+  height: 202px;
+}
+
+.titulo-foto{
+  /*background: rgb(90, 128, 157);*/
+  margin-top: 27px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.descripcion-foto{
+  /*background: rgb(131, 208, 157);*/
+  margin-top: 16px;
+  color: #444444;
+  font-size: 16px;
+  weight:300;
+  line-height: 26px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link-adicional{
+  color: #333333;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.link-adicional:hover{
+  color: #000000;
+  background: #f5f5f5;
+}
+
+.leer-mas{
+  text-decoration: none;
+  color: #405b6f;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.leer-mas:hover{
+  color: #000000;
+  background: #f5f5f5;
+}
+
+.info-hotel{
+  background: #f2f4f3;
+  margin-top: 88px;
+  width: 100%;
+  height: 308px;
+}
+
+.colonia{
+  /*background: rgb(209, 154, 185);*/
+  margin-top: 35px;
+  color: #444444;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'Raleway', sans-serif;
+}
+.telefono{
+  /*background: rgb(209, 154, 185);*/
+  margin-top: 60px;
+  color: #444444;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+.correo{
+  /*background: rgb(209, 154, 185);*/
+  margin-top: 24px;
+  color: #444444;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+.pie{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #444444;
+  text-align: center;
+  font-size: 16px;
+  weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+.freelance{
+  color: #405b6f;
+  text-decoration: none;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+  text-decoration: none;
+   border-bottom:1px dotted #405b6f;
+}
+.freelance:hover{
+  color: #000000;
+  background: #f5f5f5;
 }
