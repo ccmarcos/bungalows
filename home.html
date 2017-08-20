@@ -4,7 +4,9 @@
   <title>Bungalows Maresias</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="estilos/home.css">
+  <link rel="stylesheet" href="font.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
   <div class="contenedor-padre">
@@ -14,8 +16,10 @@
         BUNGALOWS MARESIAS
     </div>
   </div>
-
-    <div class="contenedor-menu">
+  <div class="menu-bar">
+    <a href="#" class="btn-menu">MENU<span class="icon-menu"></span></a>
+  </div>
+    <div class="contenedor-menu large">
       <div class="contenedor-secundario-menu">
         <a href="#" class="item-menu"><div class="item">INICIO</div></a>
         <a href="#" class="item-menu"><div class="item">HABITACIONES</div></a>
@@ -28,21 +32,52 @@
 
     <div class="contenedor-foto-principal">
       <div class="foto-principal">
+        <img src="imagenes/casita.jpg" alt="cabaña" class="foto-inicial">
       </div>
     </div>
 
     <div class="contenedor-fotos-adicional">
       <div class="contenedor-tres-fotos">
-        <div class="foto1">
+        <div class="contenedor-foto-and-info">
+          <div class="foto1">
+            <!-- <img src="imagenes/habitacion.jpg" alt="habitacion"> -->
+          </div>
+          <div class="titulo-foto">
+            <a href="#" class="link-adicional">HABITACIONES</a>
+          </div>
+          <div class="descripcion-foto">
+            En nuestro establecimiento contamos con 10 habitaciones totalmente equipadas con: Baño completo
+            (incluye productos de higiene) Televisión vía satélite Wifi Gratuito Calefacción y aire … <a href="#" class="leer-mas">leer más>></a>
+          </div>
         </div>
-        <div class="foto2">
+        <div class="contenedor-foto-and-info">
+          <div class="foto2">
+            <!-- <img src="imagenes/tarifas.jpg" alt="tarifas"> -->
+          </div>
+          <div class="titulo-foto">
+            <a href="#" class="link-adicional">TARIFAS</a>
+          </div>
+          <div class="descripcion-foto">
+            Observa nuestras nuevas tarifas que tenemos para ti, para que disfrutes de un hermoso lugar y una
+            hermosa expreriencia a lado de tus seres queridos, con las mejores reservaciones que tenemos … <a href="#" class="leer-mas">leer más>></a>
+          </div>
         </div>
-        <div class="foto3">
+        <div class="contenedor-foto-and-info">
+          <div class="foto3">
+            <!-- <img src="imagenes/playa.jpg" alt="playas"> -->
+          </div>
+          <div class="titulo-foto">
+            <a href="#" class="link-adicional">INTERESES</a>
+          </div>
+          <div class="descripcion-foto">
+            Nuestro hotel está situado en entorno idílico, donde los bosques y enormes peñas destacan por su abundancia.
+            Existe la posiblidad de realizas rutas de senderismo, bicicleta de montaña, recorridos … <a href="#" class="leer-mas">leer más>></a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="contenedor-descripcion-adicional">
+    <!-- <div class="contenedor-descripcion-adicional">
       <div class="contenedor-tres-descripcion">
         <div class="descripcion1">
           <div class="titulo-foto">
@@ -72,7 +107,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="info-hotel">
       <div class="colonia">
@@ -95,5 +130,8 @@
     </div>
 
   </div>
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="scripts/menu.js"></script>
 </body>
 </html>
